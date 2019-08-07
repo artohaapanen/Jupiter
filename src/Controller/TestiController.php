@@ -32,6 +32,10 @@
 			// Tehdään harjoitusten lopuksi (kotisivu).
 		}
 
+		public function alihaara(){
+		    // Testi gittiin
+        }
+
 		/**
 		* @Route("/harjoitukset/harj1")
 		*/
