@@ -1,0 +1,2 @@
+# Jupiter
+GIT harjoituksia varten
