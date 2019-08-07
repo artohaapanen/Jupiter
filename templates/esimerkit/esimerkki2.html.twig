@@ -1,0 +1,14 @@
+{# perii: temlates/base.thml.twig  #}
+{% extends 'base.html.twig' %}
+
+{# Ylikirjoitetaan #}
+{% block title %}Harjoitus 2{% endblock %}
+
+{# Ylikirjoitetaan #}
+{% block body %}
+    <h3>Harjoitus 2: Kolmio</h3>
+    <label>Sivu a = {{ sivua }}</label><br>
+    <label>Sivu b = {{ sivub }}</label><br>
+    <label>Sivu c = {{ sivuc }}</label><br>
+    <p>Tutkittava kolmio on <strong>{{ tyyppi }}</strong> ja sen ala on <strong>{{ kolmionAla }}</strong>.</p>
+{% endblock %}

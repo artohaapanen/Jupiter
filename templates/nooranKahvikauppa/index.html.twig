@@ -1,0 +1,4 @@
+<h1>Nooran kahvikauppa - osastot</h1>
+{% for osasto in osastot %}
+	{{ osasto.id }} {{ osasto.nimi }} {{ osasto.osastoIDP }} <a href="/nooranKahvikauppa/{{ osasto.id }}">Näytä</a>|<a href="/nooranKahvikauppa/editoi/{{ osasto.id }}">Muokkaa</a>|<a href="/nooranKahvikauppa/poista/{{ osasto.id }}">Poista</a><br>
+{% endfor %}

@@ -1,0 +1,14 @@
+{% if osasto %}
+	<h1>Nooran kahvikauppa - {{ osasto.nimi }}</h1>
+	{% if  osasto.nimi == "Kahvilaitteet"  %}
+		<p>Tällä osastolla myydään kahvilaitteita</p>
+	{% elseif osasto.nimi == "Kulutustuotteet" %}
+		<p>Tällä osastolla myydään kulutustuotteita, kuten kahvia.</p>
+	{% elseif osasto.nimi == "Espressolaitteet" %}
+		<p>Tällä osastolla myydään Espressolaitteita.</p>
+	{% endif %}	
+	<hr>
+{% else %}
+	<p>Osastoa ei ole!</p>
+{% endif %}
+<a href="/nooranKahvikauppa">Takaisin osastoihin</a>

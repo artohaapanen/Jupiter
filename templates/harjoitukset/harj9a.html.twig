@@ -1,0 +1,9 @@
+{# {{ form_start(Lomake, {'attr': {'id': 'custom_post_form', 'class': 'custom_class', 'action': '/harjoitukset/harj2'}}) }} #}
+{{ form_start(Lomake, {'attr': {'id': 'custom_post_form'}}) }}
+	{# {{ form_label(Lomake.kokonimi) }} #}
+	{{ form_widget(Lomake) }}
+	<button class="btn">{{ button_label|default('Save') }}</button> <!-- Oletuspainikkeen teksti on Save -->
+	{# {{ form(Lomake) }} #}
+	{# {{ form_row(Lomake.kokonimi) }} #}
+	{# {{ form_widget(Lomake.kokonimi) }} #}
+{{ form_end(Lomake) }}
