@@ -36,7 +36,7 @@
 		* @Route("/harjoitukset/harj1")
 		*/
 		public function harj1(){
-			$var = 'PHP opas';
+			$var = 'PHP-opas';
 
 			return new Response(
 				'<html><body><h3>'.$var.'</h3><p>PHP on lyhenne sanoista PHP: Hypertext Preprocessor) on 
